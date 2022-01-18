@@ -9,9 +9,9 @@ We need to create a directory in which we will create the extension before we st
 
 You will need 3 main components:
 
-    description file
-    icon
-    HTML file
+    File description
+    Icon folder
+    Source file (HTML, JavaScript)
 
 
 ## Step 2: Create a description file
@@ -22,7 +22,7 @@ Here is an example of such a file `manifest.json` :
 
 ```
 {
-  "name": "Heppy Snowing",
+  "name": "Happy Snowing",
   "description": "Simple Chrome extension shows snowflakes on Chrome screen",
   "version": "1.0",
   "manifest_version": 3,
@@ -53,13 +53,13 @@ Here is an example of such a file `manifest.json` :
 
 This is where we write the functionality of your extension. It could be done in a variety of programming languages.
 
-For simplicity, I have done it in HTML and JavaScript. We will be using the existing javascript framework that shows snow flakes on-screen and extends its functionality.
+For simplicity, I have done it in HTML and JavaScript. We will be using the existing javascript framework that shows snowflakes on-screen and extends its functionality.
 
 ## Step 4: Front Extension for Chrome:
 
-The HTML file contains the front end of the extension. It contains the button, that sits in the chrome extension position and displays a dropdown to enable the snow flakes on click action.
+The HTML file contains the front end of the extension. It contains the button, that sits in the chrome extension position and displays a dropdown to enable the snowflakes on click action.
 
-Step 5: Installing the extension on your local chrome to test
+Step 5: Installing the extension on your local Chrome to test
 
 
 This is the most impressive move. We will publish our extension and see it in action.
